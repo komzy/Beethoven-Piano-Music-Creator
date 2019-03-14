@@ -1,6 +1,15 @@
-# Classical Piano Composer
+# Beethoven Piano Music Creator
 
-This project allows you to train a neural network to generate midi music files that make use of a single instrument
+Original repository: https://github.com/Skuldur/Classical-Piano-Composer by Skuldur
+
+The original network was trained on Final Fantasy video game music. The same RNN network was trained from scratch on Beethoven's classical piano pieces to generate new 2 minute long compostions. 
+
+Trainilg loss< 0.5 leads to underfitting in which case the same note is repeated indefinitely. 
+
+Training loss >0.2 leads to overfitting where one of the midi tracks is replicated with little to no changes. 
+
+Beethoven Dataset: http://www.piano-midi.de/beeth.htm
+Download weights file: https://drive.google.com/open?id=1023aIYiubcYL1hvmM7T2xfNEprMvCoSy
 
 ## Requirements
 
