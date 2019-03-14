@@ -1,0 +1,163 @@
+
+beeth
+data
+lstm2.py
+lstm3.py
+lstm.py
+midi_songs
+new_weights.hdf5
+original_train
+predict.py
+__pycache__
+README.md
+test_output.mid
+weights.hdf5
+weights-improvement-03-2.3289-bigger.hdf5
+weights-improvement-04-2.1707-bigger.hdf5
+weights-improvement-05-2.0291-bigger.hdf5
+weights-improvement-06-3.9379-bigger.hdf5
+weights-improvement-10-0.4993-bigger.hdf5
+weights-improvement-11-0.5139-bigger.hdf5
+weights-improvement-11-0.5771-bigger.hdf5
+weights-improvement-11-1.4277-bigger.hdf5
+weights-improvement-12-0.4946-bigger.hdf5
+weights-improvement-12-0.5085-bigger.hdf5
+weights-improvement-20-1.0070-bigger.hdf5
+weights-improvement-24-0.4775-bigger.hdf5
+weights-improvement-26-0.4722-bigger.hdf5
+weights-improvement-33-0.4689-bigger.hdf5
+weights-improvement-39-0.4566-bigger.hdf5
+weights-improvement-44-0.5243-bigger.hdf5
+weights-improvement-47-0.5219-bigger.hdf5
+weights-improvement-48-0.5218-bigger.hdf5
+Using TensorFlow backend.
+Parsing beeth/appass_2.mid
+Parsing beeth/beethoven_les_adieux_1.mid
+Parsing beeth/beethoven_les_adieux_2.mid
+Parsing beeth/beethoven_les_adieux_3.mid
+Parsing beeth/beethoven_hammerklavier_2.mid
+Parsing beeth/beethoven_hammerklavier_3.mid
+Parsing beeth/appass_1.mid
+Parsing beeth/appass_3.mid
+Parsing beeth/beethoven_hammerklavier_1.mid
+Parsing beeth/beethoven_hammerklavier_4.mid
+Parsing beeth/beethoven_opus10_1.mid
+Parsing beeth/beethoven_opus10_2.mid
+Parsing beeth/beethoven_opus10_3.mid
+Parsing beeth/beethoven_opus22_1.mid
+Parsing beeth/beethoven_opus22_2.mid
+Parsing beeth/beethoven_opus22_3.mid
+Parsing beeth/beethoven_opus22_4.mid
+Parsing beeth/beethoven_opus90_1.mid
+Parsing beeth/beethoven_opus90_2.mid
+Parsing beeth/elise.mid
+Parsing beeth/mond_1.mid
+Parsing beeth/mond_2.mid
+Parsing beeth/mond_3.mid
+Parsing beeth/pathetique_1.mid
+Parsing beeth/pathetique_2.mid
+Parsing beeth/waldstein_2.mid
+Parsing beeth/pathetique_3.mid
+Parsing beeth/waldstein_1.mid
+Parsing beeth/waldstein_3.mid
+2018-12-17 19:04:12.989655: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-12-17 19:04:12.990175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 11.00GiB
+2018-12-17 19:04:12.990218: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-17 19:04:13.409399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-17 19:04:13.409502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-17 19:04:13.409552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-17 19:04:13.409877: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:42] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2018-12-17 19:04:13.409948: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10657 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+Epoch 1/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4773
+Epoch 2/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4679
+Epoch 3/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4626
+Epoch 4/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4614
+Epoch 5/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4543
+Epoch 6/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4597
+Epoch 7/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4554
+Epoch 8/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4558
+Epoch 9/300
+86386/86386 [==============================] - 543s 6ms/step - loss: 0.4539
+Epoch 10/300
+86386/86386 [==============================] - 543s 6ms/step - loss: 0.4520
+Epoch 11/300
+86386/86386 [==============================] - 544s 6ms/step - loss: 0.4520
+Epoch 12/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4482
+Epoch 13/300
+86386/86386 [==============================] - 544s 6ms/step - loss: 0.4468
+Epoch 14/300
+86386/86386 [==============================] - 541s 6ms/step - loss: 0.4437
+Epoch 15/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4412
+Epoch 16/300
+86386/86386 [==============================] - 544s 6ms/step - loss: 0.4404
+Epoch 17/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4439
+Epoch 18/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4403
+Epoch 19/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4305
+Epoch 20/300
+86386/86386 [==============================] - 549s 6ms/step - loss: 0.4314
+Epoch 21/300
+86386/86386 [==============================] - 550s 6ms/step - loss: 0.4370
+Epoch 22/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4282
+Epoch 23/300
+86386/86386 [==============================] - 544s 6ms/step - loss: 0.4319
+Epoch 24/300
+86386/86386 [==============================] - 548s 6ms/step - loss: 0.4246
+Epoch 25/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4271
+Epoch 26/300
+86386/86386 [==============================] - 548s 6ms/step - loss: 0.4226
+Epoch 27/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4292
+Epoch 28/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4250
+Epoch 29/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4204
+Epoch 30/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4207
+Epoch 31/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4220
+Epoch 32/300
+86386/86386 [==============================] - 547s 6ms/step - loss: 0.4220
+Epoch 33/300
+86386/86386 [==============================] - 546s 6ms/step - loss: 0.4186
+Epoch 34/300
+86386/86386 [==============================] - 545s 6ms/step - loss: 0.4210
+Epoch 35/300
+86386/86386 [==============================] - 538s 6ms/step - loss: 0.4120
+Epoch 36/300
+86386/86386 [==============================] - 542s 6ms/step - loss: 0.4191
+Epoch 37/300
+86386/86386 [==============================] - 541s 6ms/step - loss: 0.4186
+Epoch 38/300
+86386/86386 [==============================] - 544s 6ms/step - loss: 0.4200
+Epoch 39/300
+86386/86386 [==============================] - 534s 6ms/step - loss: 0.4191
+Epoch 40/300
+86386/86386 [==============================] - 534s 6ms/step - loss: 0.4155
+Epoch 41/300
+86386/86386 [==============================] - 539s 6ms/step - loss: 0.4142
+Epoch 42/300
+86386/86386 [==============================] - 537s 6ms/step - loss: 0.4140
+Epoch 43/300
+86386/86386 [==============================] - 541s 6ms/step - loss: 0.4102
+Epoch 44/300
+86386/86386 [==============================] - 539s 6ms/step - loss: 0.4044
+Epoch 45/300
+86386/86386 [==============================] - 541s 6ms/step - loss: 0.3992
