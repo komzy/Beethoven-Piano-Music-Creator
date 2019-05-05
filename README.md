@@ -10,7 +10,7 @@ Training loss >0.2 leads to overfitting where one of the midi tracks is replicat
 
 Beethoven Dataset: http://www.piano-midi.de/beeth.htm
 
-Download weights file: https://drive.google.com/open?id=1023aIYiubcYL1hvmM7T2xfNEprMvCoSy
+Download weights file (loss 0.3593 on above dataset): https://drive.google.com/open?id=1023aIYiubcYL1hvmM7T2xfNEprMvCoSy
 
 ## Requirements
 
