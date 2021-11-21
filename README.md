@@ -28,7 +28,7 @@ To train the network you run **lstm.py**.
 E.g.
 
 ```
-python lstm.py
+python lstm3.py
 ```
 
 The network will use every midi file in ./midi_songs to train the network. The midi files should only contain a single instrument to get the most out of the training.
@@ -42,7 +42,7 @@ Once you have trained the network you can generate text using **predict.py**
 E.g.
 
 ```
-python predict.py
+python predict3.py
 ```
 
 You can run the prediction file right away using the **weights.hdf5** file
